@@ -87,6 +87,8 @@ gcc -fopenmp openmp.c -o openmp.o
 
 ```
 
+![Image](https://github.com/user-attachments/assets/7d6e8638-789b-4ee5-a0f0-74b008a1d98c)
+
 ```text
 [Child] In critical section
 [Child] Exiting critical section
@@ -94,6 +96,8 @@ gcc -fopenmp openmp.c -o openmp.o
 [Parent] Exiting critical section
 
 ```
+
+![Image](https://github.com/user-attachments/assets/14b6cb02-ea9a-4ca4-857b-eebd84f0d2a4)
 
 ```text
 Thread 0 is adding 0 | sum = 0
@@ -104,11 +108,6 @@ Final sum = 45
 
 ![Image](https://github.com/user-attachments/assets/08e63173-e28a-414c-9d1f-5be0f8688a9d)
 
-
-![Image](https://github.com/user-attachments/assets/14b6cb02-ea9a-4ca4-857b-eebd84f0d2a4)
-
-
-![Image](https://github.com/user-attachments/assets/7d6e8638-789b-4ee5-a0f0-74b008a1d98c)
 
 ----------
 
